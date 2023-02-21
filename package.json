@@ -5,8 +5,8 @@
     "private": true,
     "scripts": {
       "dev": "next dev",
-      "build": "next build",
-      "start": "next start"
+      "build": "react-scripts --openssl-legacy-provider build",
+      "start": "react-scripts --openssl-legacy-provider start"
     },
     "repository": {
       "type": "git"
